@@ -1,0 +1,253 @@
+/*
+Theme Name: Blakely
+Description: Used to style Gutenberg Blocks.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Blocks - General Styles
+2.0 Blocks - Common Blocks
+3.0 Blocks - Formatting
+4.0 Blocks - Layout Elements
+5.0 Blocks - Widgets
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Blocks - General Styles
+--------------------------------------------------------------*/
+
+.wp-block-latest-comments__comment-date,
+[class^="wp-block-"]:not(.wp-block-gallery) figcaption,
+.wp-block-quote cite,
+.wp-block-pullquote cite,
+.wp-block-quote.is-style-large cite,
+pre.wp-block-code {
+  color: #59616c;
+}
+
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link {
+  background-color: #5064f9;
+  border: 2px solid #5064f9;
+  color: #fff;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+  border: 2px solid #5064f9;
+  background-color: transparent;
+  color: #fff;
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color) {
+  color: #222a35;
+}
+
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus,
+.is-style-outline .more-link:hover,
+.is-style-outline .more-link:focus,
+.is-style-outline .button:hover,
+.is-style-outline .button:focus {
+  border-color: transparent;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-file .wp-block-file__button:focus,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+  background-color: transparent;
+  color: #222a35;
+}
+.is-style-fill .wp-block-file__button:hover,
+.is-style-fill .wp-block-file__button:focus,
+.is-style-fill .wp-block-button__link:hover,
+.is-style-fill .wp-block-button__link:focus {
+  background-color: transparent;
+  color: #fff;
+}
+
+.wp-block-pullquote,
+.wp-block-pullquote.alignleft,
+.wp-block-pullquote.alignright,
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large,
+.wp-block-quote {
+  border-color: #5064f9;
+}
+
+.wp-block-quote:before {
+  color: #5064f9;
+}
+
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus,
+.is-style-outline .more-link:hover,
+.is-style-outline .more-link:focus,
+.is-style-outline .button:hover,
+.is-style-outline .button:focus {
+  border: 2px solid #5064f9;
+  background-color: #5064f9;
+  color: #fff;
+}
+
+/* White Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-white-color cite,
+.wp-block-button .wp-block-button__link.has-white-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-white-color,
+.wp-block-button__link.is-style-outline.has-white-color,
+.has-white-color {
+  color: #ffffff;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-white-background-color,
+.wp-block-button .wp-block-button__link.has-white-background-color,
+.has-white-background-color {
+  background-color: #ffffff;
+}
+
+.is-style-outline > .wp-block-button__link.has-white-color,
+.wp-block-button__link.is-style-outline.has-white-color {
+  border-color: #ffffff;
+}
+
+/* Black Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-black-color cite,
+.wp-block-button .wp-block-button__link.has-black-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-black-color,
+.wp-block-button__link.is-style-outline.has-black-color,
+.has-black-color {
+  color: #000000;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-black-background-color,
+.wp-block-button .wp-block-button__link.has-black-background-color,
+.has-black-background-color {
+  background-color: #000000;
+}
+
+.is-style-outline > .wp-block-button__link.has-black-color,
+.wp-block-button__link.is-style-outline.has-black-color {
+  border-color: #000000;
+}
+
+/* Light Black Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-light-black-color cite,
+.wp-block-button .wp-block-button__link.has-light-black-color,
+.wp-block-button.is-style-outline
+  > .wp-block-button__link.has-light-black-color,
+.wp-block-button__link.is-style-outline.has-light-black-color,
+.has-light-black-color {
+  color: #121212;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-light-black-background-color,
+.wp-block-button .wp-block-button__link.has-light-black-background-color,
+.has-light-black-background-color {
+  background-color: #121212;
+}
+
+.is-style-outline > .wp-block-button__link.has-light-black-color,
+.wp-block-button__link.is-style-outline.has-light-black-color {
+  border-color: #121212;
+}
+
+/* Nero Color ---------------------
+------------------------------------ */
+.wp-block-pullquote.is-style-solid-color blockquote.has-nero-color cite,
+.wp-block-button .wp-block-button__link.has-nero-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-nero-color,
+.wp-block-button__link.is-style-outline.has-nero-color,
+.has-nero-color {
+  color: #282828;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-nero-background-color,
+.wp-block-button .wp-block-button__link.has-nero-background-color,
+.has-nero-background-color {
+  background-color: #282828;
+}
+
+.is-style-outline > .wp-block-button__link.has-nero-color,
+.wp-block-button__link.is-style-outline.has-nero-color {
+  border-color: #282828;
+}
+
+/* Gray Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-gray-color cite,
+.wp-block-button .wp-block-button__link.has-gray-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-gray-color,
+.wp-block-button__link.is-style-outline.has-gray-color,
+.has-gray-color {
+  color: #59616c;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-gray-background-color,
+.wp-block-button .wp-block-button__link.has-gray-background-color,
+.has-gray-background-color {
+  background-color: #59616c;
+}
+
+.is-style-outline > .wp-block-button__link.has-gray-color,
+.wp-block-button__link.is-style-outline.has-gray-color {
+  border-color: #eae8e8;
+}
+
+/* Blue Color ---------------------
+------------------------------------ */
+
+.wp-block-pullquote.is-style-solid-color blockquote.has-blue-color cite,
+.wp-block-button .wp-block-button__link.has-blue-color,
+.wp-block-button.is-style-outline > .wp-block-button__link.has-blue-color,
+.wp-block-button__link.is-style-outline.has-blue-color,
+.has-blue-color {
+  color: #5064f9;
+}
+
+.wp-block-pullquote.is-style-solid-color.has-blue-background-color,
+.wp-block-button .wp-block-button__link.has-blue-background-color,
+.has-blue-background-color {
+  background-color: #5064f9;
+}
+
+.is-style-outline > .wp-block-button__link.has-blue-color,
+.wp-block-button__link.is-style-outline.has-blue-color {
+  border-color: #5064f9;
+}
+
+body .wp-block-quote.is-style-large:not(.is-style-plain),
+body .wp-block-quote.is-large:not(.is-style-plain) {
+  margin-bottom: 1em;
+  padding: 3.181818181818182em 0 0 0;
+}
+
+.wp-block-quote.is-style-large cite {
+  font-weight: 400;
+}
+
+blockquote,
+.wp-block-pullquote,
+.wp-block-pullquote p,
+th,
+.site-title a,
+.site-description {
+  color: #222a35;
+}
+
+.wp-block-quote.is-style-large:not(.is-style-plain) cite,
+.wp-block-quote.is-large:not(.is-style-plain) cite {
+  text-align: left;
+}

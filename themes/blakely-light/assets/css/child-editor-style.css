@@ -1,0 +1,265 @@
+/*
+Theme Name: Blakely Light
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ * 7.0 - Alignments
+ * 8.0 - Posts and pages
+ * 9.0 - Media
+ * 10.0 - Captions
+ * 11.0 - Galleries
+ * 12.0 - Media Queries
+ *    12.1 - >= 1024px
+ *	  12.2 - >= 1200px
+ *	  12.3 - >= 1366px
+ *	  12.4 - >= 1600px
+ * 14.0 - RTL
+ * 15.0 - Colors
+ */
+
+/**
+ * 1.0 - Body
+ */
+
+/**
+ * 2.0 - Typographypadding: 12px 28px;
+ */
+
+code,
+.mce-content-body code,
+kbd,
+.mce-content-body kbd {
+  background-color: transparent;
+  color: #59616c;
+  padding: 0.125em 0.25em;
+}
+
+/**
+ * 3.0 - Elements
+ */
+
+/**
+ * 4.0 - Padding/Margin
+ */
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 14px;
+  color: #333;
+  text-align: center;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0,
+    rgba(0, 0, 0, 0.3) 60%,
+    transparent
+  );
+}
+
+/**
+ * 15.0 - Colors
+ */
+
+/* Body Background Color */
+
+body {
+  background-color: #ffffff;
+}
+
+/* Tertiary Background Color */
+hr,
+pre,
+select {
+  background-color: #eaeaea;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+textarea {
+  color: #59616c;
+}
+
+/* Headline Text Color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.drop-cap::first-letter,
+.page-links > .page-links-title {
+  color: #222a35;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border-color: #eae8e8;
+}
+
+/* Link Color */
+a,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  color: #5064f9;
+}
+
+/* Link Hover Color */
+a:focus,
+a:hover {
+  color: #222a35;
+}
+
+/* Content White Color */
+table th {
+  color: #222a35;
+}
+
+mark,
+ins {
+  background-color: #5064f9;
+}
+
+/* Secondary Link Color */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+  color: #888888;
+}
+
+/* Border Color */
+select,
+fieldset,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+table,
+.mce-item-table,
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+  border-color: #eae8e8;
+}
+
+/* Button Text Color */
+.page-links a,
+.page-links a:hover,
+.page-links a:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  color: #ffffff;
+} /* Button Text Color & Button Hover Text Color is same */
+
+/* Button Background Color */
+.page-links a,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+  background-color: #5064f9;
+}
+
+/* Button Hover Background Color */
+.page-links a:hover,
+.page-links a:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #5064f9;
+}
+
+/* Tertiary Link Color */
+mark,
+ins {
+  color: #222a35;
+}
